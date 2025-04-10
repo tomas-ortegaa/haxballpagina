@@ -1,91 +1,14 @@
 body { 
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
+    font-size: 27px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     text-align: center;
     margin-left: 70px;
     background-image: url("haxball\ gif.gif"); /* Nombre del GIF corregido */
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    flex-direction: column;
-    color: #fff;
-}
-
-/* Imagen del título */
-.title-image {
-    display: block;
-    margin: 0 auto; /* Centra horizontalmente */
-    max-width: 60%;
-    height: auto;
-    margin-bottom: 40px;
-}
-
-/* Caja de sombra que cubre solo el texto + parte del botón */
-.text-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px 20px; /* Ajuste del padding */
-    border-radius: 50px;
-    color: white;
-    text-align: center;
-    width: 50%;
-    display: inline-block;
-    position: relative;
-}
-
-/* Texto descriptivo con la fuente Open Sans */
-.description {
-    font-size: 14px;
-    margin-bottom: 0px;
-    line-height: 1.0;
-    font-family: "Open Sans", sans-serif;
-}
-
-/* Estilo del botón más bordeado */
-.play-button {
-    display: inline-block;
-    background-color: #8da86b;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 12px 40px; /* Más padding para mejor forma */
-    border-radius: 45px; /* Más bordeado */
-    border: 3px solid #728857;
-    text-decoration: none;
-    box-shadow: 0 4px #5a6e4a;
-    transition: transform 0.2s, box-shadow 1.5s;
-}
-
-/* Ajuste para que el botón sobresalga un poco de la sombra */
-.play-button-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 25px;
-}
-
-/* Efecto al pasar el mouse */
-.play-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-}
-
---- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-body { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 70px;
-    background-image: url("haxballgif.gif"); /* Nombre del GIF corregido */
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -124,17 +47,17 @@ gap: 10px;
     margin: 0 auto; /* Centra horizontalmente */
     max-width: 60%;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
 }
 
 /* Caja de sombra que cubre solo el texto + parte del botón */
 .text-container {
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px 20px; /* Ajuste del padding */
+    padding: 15px 78px; /* Ajuste del padding */
     border-radius: 50px;
     color: white;
     text-align: center;
-    width: 50%;
+    width: 640px;
     display: inline-block;
     position: relative;
 }
@@ -152,14 +75,17 @@ gap: 10px;
     display: inline-block;
     background-color: #8da86b;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    padding: 12px 40px; /* Más padding para mejor forma */
-    border-radius: 45px; /* Más bordeado */
+    padding: 12px 55px; /* Más padding para mejor forma */
+    border-radius: 50px; /* Más bordeado */
     border: 3px solid #728857;
     text-decoration: none;
-    box-shadow: 0 4px #5a6e4a;
-    transition: transform 0.2s, box-shadow 1.5s;
+    box-shadow: 0 0px 0 3px #8da86b,0 6px 8px 8px rgba(0,0,0,.48);
+    transition: transform scale(1.05);
+    background: linear-gradient(#8da86b, #658d59);
+ border-color: rgb(234, 240 ,220)
+
 }
 
 /* Ajuste para que el botón sobresalga un poco de la sombra */
@@ -167,7 +93,7 @@ gap: 10px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 25px;
+    top: 33px;
 }
 
 /* Efecto al pasar el mouse */
@@ -175,4 +101,8 @@ gap: 10px;
     transform: scale(1.1);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
-
+/* Efecto al pasar el mouse */
+.play-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
